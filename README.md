@@ -26,5 +26,5 @@ MobileNet has two hyperparameters that trade off between size and accuracy of th
 In this project, **depth multiplier** of 4 is used instead of resolution multiplier, as described in the paper "An Enhanced Hybrid MobileNet".
 This solution has 0.85 million parameters, while the baseline model has 3.23 million parameters. 
 I used 30% of dropout, SGD optimizer with momentum 0.9 and added augmentations to the training images. 
-These improved the model proposed in the paper and achieved 75% of accuracy, which is higher than the result achieved in the experiment.
+These improved the model proposed in the paper and achieved 75% of accuracy, which is slightly higher than the result achieved in the experiment.
 
